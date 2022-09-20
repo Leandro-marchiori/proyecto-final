@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:cadetblue;
+    font-family: "NanumGothic-Regular";
+}
+@font-face{
+    font-family: "NanumGothic-Regular" ;
+src:url(../assets/font/NanumGothic-Regular.ttf)    
+}
+@font-face{
+    font-family: "NanumGothic-Bold" ;
+src:url(../assets/font/NanumGothic-Bold.ttf)    
+}
+h1,h2,h3,h4,h5{
+    font-family:"NanumGothic-Bold";
+    color:beige;
+    text-align:center;
+    padding: 20px;
+}
+h3{
+    font-size: 2rem;
+}
+#top{
+    text-align:center;
+}
+.logo{
+    width: 60px;
+    border-radius: 50%;
+    float: left;
+
+}
+nav{
+    text-align:right;
+}
+.menu{
+    list-style-type:none;
+    background-color:darkcyan;
+    padding: 0;
+    width: 100%;
+    
+}
+.menu .contenedor {
+    display: inline-block;
+    position:relative;
+    font-size: 1.5rem;
+    
+}
+.menu .submenu{
+    position:absolute;
+    display:none;
+}
+.menu .submenu .sub_contenedor{
+    display: block;
+    font-size: 1rem;
+    padding: auto;
+}
+.menu .contenedor a{
+    color:aquamarine;
+    text-decoration: none;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 20px;
+}
+.menu .contenedor a:hover{
+    color: aliceblue;
+}
+.menu .contenedor:hover .submenu{
+    display: block;
+    color: aliceblue;
+}
+.menu .contenedor:hover a{
+    background-color:cornflowerblue;
+    color:aliceblue;
+}
+.contenedor1{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .contenedor1 h1{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 50px;
+    }
+  
+    .contenedor1 h3{
+        text-align:left;
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    
+    .contenedor1 p{
+        text-align:justify;
+        margin-top: 10px;
+        font-size: 16px;
+        margin: 20px;
+        color:aliceblue;
+    }
+
+    .contenedor2 p{
+    text-align:justify;
+    margin-top: 10px;
+    font-size: 16px;
+    margin: 60px;
+    color:aliceblue;
+
+    }
+
+    .contenedor2 h3{
+     text-align:left;
+     margin-top: 50px;
+     font-size: 30px;
+
+    }
+
+
+    #img1{
+        border-radius: 10%;
+        width: 900px;
+        height: 400px;
+        margin: 20px;
+    }
+    
+    #img2{border-radius: 10%;
+        width: 500px;
+        height: 300px;
+        margin: 20px;
+
+    }
+
+    #img1{
+        float: right;
+    }
+
+    #img2{
+        float: left;
+    }
+
+
+
+.perros{
+    text-align:center;
+}
+.perros img{
+    border-radius:20px ;
+}
+h5{
+    color: darkcyan;
+    text-align:center;
+    padding: 10px;
+}
+
+.redes{
+    height: 200px;
+    background-color:cadetblue;
+    padding: 30px;
+}
+
+.redes h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sociales{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+    
+.sociales li{
+    display: inline-block ;
+}
+
+.sociales a{
+    padding: 10px;
+}
+
+
+
+
+
+footer{
+    background-color:antiquewhite;
+    height: 80px;
+}
